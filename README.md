@@ -321,8 +321,8 @@ https://github.com/sudhanshugaurav05/Smart-Study-Cloud-Extension
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
+
 ### ☁️ Learn Smarter. Plan Better. Build with Cloud.
 
 **AWS + Generative AI + Browser Extension**
-:::
+
