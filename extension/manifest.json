@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Study Cloud",
+    "version": "1.0.0",
+    "description": "AI-powered study planner",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "notifications"
+    ],
+    "host_permissions": [
+        "https://b5yb4phu3k.execute-api.ap-south-1.amazonaws.com/*"
+    ]
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Study Cloud</title>
+
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 Smart Study Cloud</h1>
+
+        <p class="subtitle">
+            AI-powered personalized study planner
+        </p>
+
+        <div class="card">
+
+            <label for="pdfFile">
+                Upload Study Material
+            </label>
+
+            <input
+                type="file"
+                id="pdfFile"
+                accept=".pdf"
+            >
+
+        </div>
+
+        <div class="card">
+
+            <label for="subject">
+                Subject
+            </label>
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="e.g. Cloud Computing"
+            >
+
+        </div>
+
+        <div class="card">
+
+            <label for="studyTime">
+                Study Time Per Day
+            </label>
+
+            <select id="studyTime">
+
+                <option value="1">
+                    1 hour
+                </option>
+
+                <option value="2" selected>
+                    2 hours
+                </option>
+
+                <option value="3">
+                    3 hours
+                </option>
+
+                <option value="4">
+                    4 hours
+                </option>
+
+            </select>
+
+        </div>
+
+        <button id="generateBtn">
+            Generate Study Plan
+        </button>
+
+        <div id="status"></div>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
