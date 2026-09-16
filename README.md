@@ -1,4 +1,4 @@
-::: {align="center"}
+
 # 🚀 Smart Study Cloud
 
 ### AI-Powered Cloud Study Planner for Chrome & Edge
